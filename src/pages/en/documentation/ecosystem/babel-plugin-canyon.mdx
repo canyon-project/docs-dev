@@ -37,6 +37,9 @@ module.exports = {
     [
       'canyon',
       {
+        coverageMapDataAutoUpload: undefined,
+        //默认undefined，会在build时产生.canyon_output文件
+        //{} 会自动上传，可配置代理等信息upstream？
         dsn: 'http://yourdomain.com/coverage/client',
         reporter: 'your_token',
         projectID: '230614',

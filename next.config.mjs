@@ -17,8 +17,8 @@ export default withNextra({
   reactStrictMode: true,
   distDir: "./.next",
   i18n: {
-    locales: ["zh", "en", "ja", "fr"],
-    defaultLocale: "zh",
+    locales: ["en"],
+    defaultLocale: "en",
   },
   typescript: {
     ignoreBuildErrors: true,
@@ -29,7 +29,7 @@ export default withNextra({
   redirects: () => [
     {
       source: "/",
-      destination: "/zh",
+      destination: "/en",
       permanent: true,
     },
   ],
