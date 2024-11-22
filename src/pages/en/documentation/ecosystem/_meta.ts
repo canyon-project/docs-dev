@@ -6,4 +6,5 @@ export default {
   "canyon-sdk": "Canyon SDK",
   "canyon-extension": "Canyon Extension",
   "canyon-report": "Canyon Report",
+  "canyon-ut": "Canyon UT",
 };
